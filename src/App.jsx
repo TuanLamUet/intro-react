@@ -48,8 +48,8 @@ class App extends React.Component {
     let tabChoice = <div />;
 
     /*Uncomment below to render assignments*/
-    /*if (this.state.buttonClicked === "assignments") {
-     */ tabChoice = (
+    if (this.state.buttonClicked === "assignments") {
+      tabChoice = (
         <List
           placeholder="Add Assignment..."
           currList={this.state.assignments}
